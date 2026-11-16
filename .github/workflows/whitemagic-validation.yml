@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
-          ref: 15eed84cf6c2b7344d20a09566ada65da8ebb25f
+          ref: f0f109574d771e36ee2272e157ba9bbe3fe1cda9
       - uses: actions/setup-go@40f1582b2485089dde7abd97c1529aa768e1baff
         with:
           go-version-file: go.mod
